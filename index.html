@@ -1,0 +1,114 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Passion+One|Permanent+Marker|Sedgwick+Ave" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Linking style.css file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Play the Crystals!</title>
+  
+  </head>
+  <body>
+    <div class="container">
+    	<div class="row" id="designed">
+    		<div class="col-md-12">
+    			<h1 class="display-1">♢Crystals Collector♢</h1>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-6">
+    			<div class="jumbotron">
+					<h1 class="display-3">Directions</h1>
+					<p class="lead">A random number will pop out onto the screen.
+					<br>
+					By clicking on the any of the four crystals below, you will be adding to your total point score.
+					<br>
+					If your total score equals to the random number, you win! Otherwise if your total score goes above the random number, you lose the game. 
+					<br>
+					The value of each crystal is hidden until you click on them. 
+					<br>
+					Everytime the game starts, the values of the crystals will change.
+					<h1 class="display-4">Good Luck!</h1>
+					</p>
+				</div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="row">
+    				<div class="col-md-8">
+    					<div class="mini-box">
+						  <p id="ranNum">
+						    
+                          </p>
+						</div>
+    				</div>
+    				<div class="col-md-4">
+    					<div class="small-box">
+    						<p id="keepScore">
+    							Wins: <span id="triumph"></span>
+                                <br>
+                                Loss: <span id="defeat"></span>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-md-12">
+    					<div class="row">
+    						<div class="col-md-3">
+		    					<div class="crystals">
+		    						<img src="assets/images/orange.jpg" id="crysOne">
+		    					</div>
+		    				</div>	
+	    					<div class="col-md-3">	
+		    					<div class="crystals">
+		    						<img src="assets/images/pink.jpg" id="crysTwo">
+		    					</div>
+		    				</div>	
+		    				<div class="col-md-3">	
+		    					<div class="crystals">
+		    						<img src="assets/images/purple.jpg" id="crysThree">
+		    					</div>
+		    				</div>	
+		    				<div class="col-md-3">	
+		    					<div class="crystals">
+		    						<img src="assets/images/quartz.jpg" id="crysFour">
+		    					</div>
+		    				</div>	
+		    			</div>		
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-md-12">
+    					<div class="total-box">
+    						<p id="yourScore">
+    						Total Score: 
+                            <br>
+                            <span id="totalScore"></span>
+    						</p>
+    						<br>
+    						<p id="postedScore">
+    							
+    						</p>
+    					</div>
+    				</div>
+    				
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+body {
+	background-image: url("http://www.kubicki.info/wallpapers/60588_1400x1050.jpg");
+}
+#designed {
+	background-color: black;
+	border-style: solid;
+	border-color: #b3ff51;
+}
+.display-1 {
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	color: white; 
+}
+
+.jumbotron {
+	position: relative;
+	left: -13px;
+	/* font-family: Futura, sans-serif; */
+	background-color: #660000;
+	color: white;
+	border-style: solid;
+	border-color: #b3ff51;
+}
+.display-3, .display-4 {
+	text-align: center;
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+.lead {
+	font-family: 'Permanent Marker', cursive;
+}
+.mini-box {
+	position: relative;
+	top: 10px;
+	height: 200px;
+	border-style: solid;
+	text-align: center;
+	background-color: #000066;
+	border-color: #b3ff51;
+}
+
+#ranNum {
+	padding-top: 70px;
+	font-size: 44px;
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+}
+
+.small-box {
+	position: relative;
+	top: 10px;
+	right: 30px;
+	height: 200px;
+	width: 205px;
+	border-style: solid;
+	text-align: center;
+	background-color: #4d0066;
+	border-color: #b3ff51;
+}
+
+#keepScore {
+	padding-top: 50px;
+	padding-left: 0;
+	font-size: 34px;
+	font-family: 'Sedgwick Ave', cursive;
+	color: white;
+}
+
+#triumph, #defeat {
+	font-family: 'Permanent Marker', cursive;
+}
+.crystals {
+	position: relative;
+	top: 20px;
+	border-style: solid;
+	border-color: #b3ff51; 
+}
+
+img {
+	height: 120px;
+	width: 120px
+}
+
+.total-box {
+	position: relative;
+	top: 30px;
+	border-style: solid;
+	border-color: #b3ff51;
+	background-color: #293d29;
+	height: 250px;
+	width: 250px;
+	font-size: 34px;
+}
+
+#yourScore {
+	text-align: center;
+	padding-top: 75px;
+	font-family: 'Sedgwick Ave', cursive;
+	color: white;
+}
+
+#totalScore {
+	font-family: 'Permanent Marker', cursive;
+}
+#postedScore {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 26px;
+	font-family: Verdana, sans-serif;
+	color: white;
+}
