@@ -31,8 +31,9 @@ $('#triumph').text(wins);
 $('#defeat').text(losses);
 
 //Creating a random number that will appear in the random number box.
-function maskedNum(){
 var randomNum = Math.floor((Math.random() * 120) + 19);
+
+function maskedNum(){
 
 //Creating a console.log to test the that randomNum works
 console.log(randomNum); 
